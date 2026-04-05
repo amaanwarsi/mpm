@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./logo.png" alt="mpm logo" width="120" />
+</p>
+
 # MPM – Minimal Package Manager
 
 [![npm version](https://img.shields.io/npm/v/mpm.svg)](https://www.npmjs.com/package/mpm)
