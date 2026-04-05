@@ -1,0 +1,35 @@
+{
+  "name": "@amaanwarsi/mpm",
+  "version": "1.0.0",
+  "description": "Minimal Package Manager to fetch assets without node_modules",
+  "bin": {
+    "mpm": "./bin/index.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaanwarsi/mpm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amaanwarsi/mpm/issues"
+  },
+  "preferGlobal": true,
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "cli",
+    "npm",
+    "assets",
+    "minimal",
+    "frontend",
+    "package-manager",
+    "lightweight"
+  ],
+  "author": "Amaan Warsi",
+  "license": "MIT"
+}
