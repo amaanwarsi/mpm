@@ -1,9 +1,9 @@
-# MPM – Asset Package Manager
+# MPM – Minimal Package Manager
 
 [![npm version](https://img.shields.io/npm/v/mpm.svg)](https://www.npmjs.com/package/mpm)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**MPM (Asset Package Manager)** is a CLI tool that fetches **only the assets you need** (`.min.js`, `.css`, etc.) from npm packages without installing the entire `node_modules` tree.
+**MPM (Minimal Package Manager)** is a CLI tool that fetches **only the assets you need** (`.min.js`, `.css`, etc.) from npm packages without installing the entire `node_modules` tree.
 
 Stop pulling gigabytes of dependencies just to get a single minified file. MPM resolves packages from the npm registry, extracts their tarballs, intelligently ranks the files, and copies the best candidate(s) into an `asset_modules/` folder (or your custom output directory). Built on top of npm for speed, low risk, and a familiar workflow.
 
