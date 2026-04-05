@@ -169,4 +169,3 @@ Make sure to run tests (`npm test`) and follow the existing code style.
 ## License
 
 MIT © Amaan Warsi
-```
