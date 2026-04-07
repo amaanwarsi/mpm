@@ -172,4 +172,4 @@ Make sure to run tests (`npm test`) and follow the existing code style.
 
 ## License
 
-MIT © Amaan Warsi
+Distributed under the MIT License. See the [LICENSE](./LICENCE)file for more information.
