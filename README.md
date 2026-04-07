@@ -172,4 +172,4 @@ Make sure to run tests (`npm test`) and follow the existing code style.
 
 ## License
 
-Distributed under the MIT License. See the [LICENSE](./LICENCE)file for more information.
+Distributed under the MIT License. See the [LICENSE](https://github.com/amaanwarsi/mpm/blob/main/LICENSE) file for more information.
