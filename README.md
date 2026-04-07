@@ -20,7 +20,7 @@ Stop pulling gigabytes of dependencies just to get a single minified file. MPM r
 - **Fallback to GitHub** – if npm fails, MPM scans GitHub repositories for the same asset patterns.
 - **Tracks everything** – updates your `package.json` under an `"assets"` section for reproducibility.
 
-### ⚠️ Important Note: Bundled Assets Only
+### Important Note: Bundled Assets Only
 
 This tool is specifically designed to fetch **standalone, bundled assets** (like UMD, IIFE, or pre-compiled CSS) meant to be served directly to the browser. 
 If you download an ES Module or CommonJS file that contains internal dependencies (e.g., `import { debounce } from 'lodash'` or `require('./utils')`), that file will break in your project because APM intentionally **does not** download the `node_modules` tree. APM prioritizes fetching the absolute latest compiled changes directly from the npm registry for immediate use.
