@@ -167,7 +167,7 @@ mpm get jquery --version 3.6.0 --force
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please open an issue or pull request on [GitHub](https://github.com/yourusername/mpm).  
+Contributions are welcome! Please open an issue or pull request on [GitHub](https://github.com/amaanwarsi/mpm).  
 Make sure to run tests (`npm test`) and follow the existing code style.
 
 ## License

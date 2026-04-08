@@ -172,31 +172,17 @@ nav.scrolled {
     border-radius: 9999px;
     font-size: 0.8125rem;
     font-weight: 500;
-    color: var(--gray-600);
+    color: var(--gray-700);
+    text-decoration: none;
     margin-bottom: 2rem;
     opacity: 0;
     transform: translateY(20px);
     animation: fadeUp 0.8s ease forwards;
 }
 
-.hero-badge .dot {
-    width: 6px;
-    height: 6px;
-    background: #22c55e;
-    border-radius: 50%;
-    animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-
-    0%,
-    100% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0.4;
-    }
+.hero-badge:hover {
+    border: 1px solid var(--gray-300);
+    background: var(--gray-200);
 }
 
 .hero h1 {
